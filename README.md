@@ -8,6 +8,20 @@ A cool gallery view with vertical smooth animation which shows content more attr
 ## Arlticle
 [手摸手教你写炫酷控件](http://www.wangyuwei.me/2016/08/07/%E6%89%8B%E6%91%B8%E6%89%8B%E6%95%99%E4%BD%A0%E5%86%99%E7%82%AB%E9%85%B7%E6%8E%A7%E4%BB%B6/)
 
+##Build
+#####Step 1 
+```build
+repositories {
+    maven {
+        url 'https://dl.bintray.com/wangyuwei/maven'
+    }
+}
+```
+#####Step 2
+```java
+compile 'me.wangyuwei:GalleryView:1.0.0'
+```
+
 ##**Lincense**
 
 ```lincense
