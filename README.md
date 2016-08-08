@@ -1,6 +1,7 @@
 ## What's JikeGallery ?
 A cool gallery view with vertical smooth animation which shows content more attractive. 
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-JikeGallery-green.svg?style=true)](https://android-arsenal.com/details/1/4084)
 
 ## Demo
 ![效果](http://i4.piimg.com/1070/a43444182f677b1d.gif)
