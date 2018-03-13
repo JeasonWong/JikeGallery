@@ -3,6 +3,7 @@ package me.wangyuwei.galleryview;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.ViewGroup;
 import android.view.animation.AccelerateDecelerateInterpolator;
 
@@ -24,7 +25,7 @@ public abstract class SmoothViewGroup extends ViewGroup {
     //默认状态
     protected int mStatus = STATUS_STOP;
     //滚动时间间隔
-    protected int mDuration = 500;
+    protected int mDuration = 5000;
     //重复次数
     protected int mRepeatTimes = 0;
 
@@ -84,14 +85,17 @@ public abstract class SmoothViewGroup extends ViewGroup {
 
                         }
                     }, 50);
-
+                    Log.i("tag","滑动"+mSmoothMarginTop);
                 } else {
                     doAnim();
+                    Log.i("tag","缩减动画");
+
                 }
             }
         });
         animator.start();
         mStatus = STATUS_SMOOTHING;
+
     }
 
     //动画结束

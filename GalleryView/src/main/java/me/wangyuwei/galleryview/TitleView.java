@@ -3,6 +3,7 @@ package me.wangyuwei.galleryview;
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -65,7 +66,7 @@ public class TitleView extends SmoothViewGroup {
             cParams = (MarginLayoutParams) childView.getLayoutParams();
 
             int cl = 0, ct = 0, cr, cb;
-
+            //是否是奇数圈
             if (isOddCircle()) {
                 if (i == 1) {
                     cl = cParams.leftMargin;
@@ -87,6 +88,7 @@ public class TitleView extends SmoothViewGroup {
             cr = cl + mWidth;
             cb = ct + mHeight;
             childView.layout(cl, ct, cr, cb);
+          //  Log.i("Tutkeview",""+);
         }
     }
 
