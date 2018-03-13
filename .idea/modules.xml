@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GalleryView/GalleryView.iml" filepath="$PROJECT_DIR$/GalleryView/GalleryView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JiKeGallery.iml" filepath="$PROJECT_DIR$/JiKeGallery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JikeGallery.iml" filepath="$PROJECT_DIR$/JikeGallery.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
